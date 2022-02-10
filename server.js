@@ -1,6 +1,7 @@
 'use strict';
 const express     = require('express');
 const bodyParser  = require('body-parser');
+const bcrypt = require('bcrypt');
 const fccTesting  = require('./freeCodeCamp/fcctesting.js');
 const app         = express();
 fccTesting(app);
